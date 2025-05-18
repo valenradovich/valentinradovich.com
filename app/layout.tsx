@@ -5,7 +5,10 @@ import { ThemeProvider } from "@/components/theme-provider"
 export const metadata = {
   title: "Valentin Radovich",
   description: "Personal website of Valentin Radovich",
-    generator: 'v0.dev'
+    generator: 'v0.dev',
+    icons: {
+      icon: '/icon-vr.png',
+    }
 }
 
 export default function RootLayout({
