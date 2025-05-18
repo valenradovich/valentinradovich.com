@@ -20,7 +20,7 @@ export default function RootLayout({
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet" />
       </head>
-      <body className="font-instrument-serif bg-white text-black dark:bg-black dark:text-white min-h-screen transition-colors duration-300">
+      <body className="font-instrument-serif min-h-screen transition-colors duration-300">
         <ThemeProvider attribute="class" defaultTheme="light" enableSystem={false} disableTransitionOnChange>
           {children}
         </ThemeProvider>
