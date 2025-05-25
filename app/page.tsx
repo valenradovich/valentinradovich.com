@@ -21,7 +21,7 @@ export default function Home() {
           i like to build stuff all the time that transforms raw and complex ideas into simple products.
         </p>
         <p className="text-xl mb-4 leading-relaxed">
-            feel free to <Link href="mailto:hello@valentinradovich.com" className="underline hover:no-underline">talk to me</Link> if you have something interesting to share,
+            feel free to <Link href="mailto:hi@valentinradovich.com" className="underline hover:no-underline">talk to me</Link> if you have something interesting to share,
             read my <Link href="/posts" className="underline hover:no-underline">posts</Link>, some of my <Link href="https://github.com/valenradovich" className="underline hover:no-underline">code</Link> or thoughts on <Link href="https://x.com/software_valen" className="underline hover:no-underline">twitter</Link>.
         </p>
       </div>
