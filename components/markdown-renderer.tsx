@@ -1,5 +1,8 @@
 "use client"
 import ReactMarkdown from "react-markdown"
+import remarkMath from "remark-math"
+import rehypeKatex from "rehype-katex"
+import "katex/dist/katex.min.css" // Import KaTeX CSS
 
 interface MarkdownRendererProps {
   content: string
@@ -8,6 +11,8 @@ interface MarkdownRendererProps {
 export function MarkdownRenderer({ content }: MarkdownRendererProps) {
   return (
     <ReactMarkdown
+      remarkPlugins={[remarkMath]}
+      rehypePlugins={[rehypeKatex]}
       components={{
         h1: ({ node, ...props }) => (
           <h1 className="text-3xl font-normal mb-8 text-center font-instrument-serif" {...props} />
@@ -16,12 +21,12 @@ export function MarkdownRenderer({ content }: MarkdownRendererProps) {
           <h2 className="text-2xl font-normal mt-12 mb-6 text-center font-instrument-serif" {...props} />
         ),
         h3: ({ node, ...props }) => <h3 className="text-xl font-normal mt-8 mb-4 font-instrument-serif" {...props} />,
-        p: ({ node, ...props }) => <p className="mb-6 text-lg leading-relaxed font-instrument-serif" {...props} />,
+        p: ({ node, ...props }) => <p className="mb-6 text-xl leading-relaxed font-instrument-serif" {...props} />,
         ul: ({ node, ...props }) => <ul className="list-disc pl-8 mb-6 space-y-2 font-instrument-serif" {...props} />,
         ol: ({ node, ...props }) => (
           <ol className="list-decimal pl-8 mb-6 space-y-2 font-instrument-serif" {...props} />
         ),
-        li: ({ node, ...props }) => <li className="mb-2 text-lg font-instrument-serif" {...props} />,
+        li: ({ node, ...props }) => <li className="mb-2 text-xl font-instrument-serif" {...props} />,
         blockquote: ({ node, ...props }) => (
           <blockquote className="border-l-2 border-current pl-6 italic my-8 text-lg font-instrument-serif" {...props} />
         ),
@@ -31,6 +36,9 @@ export function MarkdownRenderer({ content }: MarkdownRendererProps) {
         ),
         pre: ({ node, ...props }) => (
           <pre className="font-mono bg-gray-100 dark:bg-gray-800 p-6 rounded overflow-x-auto mb-6 my-8" {...props} />
+        ),
+        img: ({ node, ...props }) => (
+          <img className="mx-auto" {...props} />
         ),
       }}
     >

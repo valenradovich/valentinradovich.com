@@ -11,8 +11,9 @@ export async function generateStaticParams() {
   }))
 }
 
-export default function PostPage({ params }: { params: { slug: string } }) {
-  const post = getPostData(params.slug)
+export default async function PostPage({ params }: { params: { slug: string } }) {
+  const resolvedParams = await params;
+  const post = await getPostData(resolvedParams.slug)
 
   if (!post) {
     notFound()
@@ -21,12 +22,9 @@ export default function PostPage({ params }: { params: { slug: string } }) {
   return (
     <Layout>
       <header className="mb-6 text-center">
-        <h1 className="text-6xl font-normal leading-tight">
-          {post.title}
-        </h1>
       </header>
       <article className="my-16">
-        <h1 className="text-3xl font-normal mb-4 text-center">{post.title}</h1>
+        <h1 className="text-6xl font-normal mb-4 text-center">{post.title}</h1>
         <div className="mb-12 text-base text-center">
           {new Date(post.date).toLocaleDateString("en-US", {
             year: "numeric",
@@ -39,7 +37,7 @@ export default function PostPage({ params }: { params: { slug: string } }) {
             </span>
           )}
         </div>
-        <div className="prose prose-lg dark:prose-invert mx-auto">
+        <div className="prose-xl dark:prose-invert mx-auto text-xl">
           <MarkdownRenderer content={post.content} />
         </div>
       </article>
@@ -51,7 +49,6 @@ export default function PostPage({ params }: { params: { slug: string } }) {
       </div>
 
       <footer className="mt-20 mb-8 text-center text-base">
-        <p>© {new Date().getFullYear()} Valentin Radovich. All rights reserved.</p>
       </footer>
     </Layout>
   )
