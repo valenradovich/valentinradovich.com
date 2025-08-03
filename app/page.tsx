@@ -22,7 +22,7 @@ export default function Home() {
         </p>
         <p className="text-xl mb-4 leading-relaxed">
             feel free to <Link href="mailto:hi@valentinradovich.com" className="underline hover:no-underline">talk to me</Link> if you have something interesting to share,
-            read my <Link href="/posts" className="underline hover:no-underline">posts</Link>, some of my <Link href="https://github.com/valenradovich" className="underline hover:no-underline">code</Link> or thoughts on <Link href="https://x.com/software_valen" className="underline hover:no-underline">twitter</Link>.
+            read my <Link href="/posts" className="underline hover:no-underline">posts</Link>, some of my <Link href="https://github.com/valenradovich" className="underline hover:no-underline">code</Link> or thoughts on <Link href="https://x.com/radovichvalen" className="underline hover:no-underline">twitter</Link>.
         </p>
       </div>
     </Layout>
