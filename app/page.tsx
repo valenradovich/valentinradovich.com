@@ -15,10 +15,7 @@ export default function Home() {
       </header>
       <div className="text-left">
         <p className="text-xl mb-4 leading-relaxed">
-          i'm a software engineer working on ai and machine learning - born in Argentina, currently living in Buenos Aires.
-        </p>
-        <p className="text-xl mb-4 leading-relaxed">
-          i like to build stuff all the time that transforms raw and complex ideas into simple products.
+          i'm a software engineer building ai/ml products—obsessed with user experience, simplicity, and shipping fast.
         </p>
         <p className="text-xl mb-4 leading-relaxed">
             feel free to <Link href="mailto:hi@valentinradovich.com" className="underline hover:no-underline">talk to me</Link> if you have something interesting to share,
