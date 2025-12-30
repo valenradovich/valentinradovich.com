@@ -10,7 +10,7 @@ I don't want to fall in the same stuff that you can read from any other people w
 
 If you love what you do, the passion (obsession) to achieve your goals is massive and your state of happiness depends on it; you probably saw, read or heard a lot of people talk about it;
 
-Steve Jobs, Elon Musk, Jeff Bezos, Bill Gates, Walt Disney, and I can keep going until I probably name -almost- all the founders in the world. It's easy to say they loved what they did, but love alone doesn't explain the intensity. The constant pushing. That's not just passion. That's obsession. 
+Steve Jobs, Elon Musk, Jeff Bezos, Bill Gates, Walt Disney, Edwin Land, Jack Ma, Pablo Picasso, Enzo Ferrari and I can keep going until I probably name -almost- all the people that have done great things in the world. It's easy to say they loved what they did, but love alone doesn't explain the intensity. The constant pushing. That's not just passion. That's obsession. 
 
 Calling it passion is the socially acceptable word, but obsession is the accurate. Let me tell you why it matters for you and me. Because without obsession, it's too easy to quit, leave early or just don't do it. Passion is the *"I love this, I want to do it!"*, obsession is more like *"I cannot imagine my life not doing this"*.
 
