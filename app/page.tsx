@@ -15,6 +15,9 @@ export default function Home() {
       </header>
       <div className="text-left">
         <p className="text-xl mb-4 leading-relaxed">
+          currently building <Link href="https://melian.com/" className="underline hover:no-underline">Melian</Link>
+        </p>
+        <p className="text-xl mb-4 leading-relaxed">
           i'm a software engineer building ai/ml products—obsessed with user experience, simplicity, and shipping fast.
         </p>
         <p className="text-xl mb-4 leading-relaxed">
