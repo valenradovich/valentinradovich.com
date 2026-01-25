@@ -9,7 +9,7 @@ interface LayoutProps {
 
 export function Layout({ children }: LayoutProps) {
   return (
-    <main className="flex flex-col justify-center items-center min-h-screen container mx-auto px-8 max-w-2xl">
+    <main className="flex min-h-screen w-full max-w-2xl flex-col justify-center px-4 sm:px-8 mx-auto">
       <div className="absolute top-4 right-4">
         <ThemeToggle />
       </div>

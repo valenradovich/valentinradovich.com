@@ -23,7 +23,7 @@ export default async function PostPage({ params }: { params: { slug: string } })
     <Layout>
       <header className="mb-6 text-center">
       </header>
-      <article className="my-16">
+      <article className="my-16 w-full">
         <h1 className="text-6xl font-normal mb-4 text-center">{post.title}</h1>
         <div className="mb-12 text-base text-center">
           {new Date(post.date).toLocaleDateString("en-US", {
@@ -37,7 +37,7 @@ export default async function PostPage({ params }: { params: { slug: string } })
             </span>
           )}
         </div>
-        <div className="prose-xl dark:prose-invert mx-auto text-xl">
+        <div className="prose-xl dark:prose-invert mx-auto w-full max-w-full text-xl break-words">
           <MarkdownRenderer content={post.content} />
         </div>
       </article>
