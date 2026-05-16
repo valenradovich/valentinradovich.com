@@ -32,10 +32,10 @@ export function MarkdownRenderer({ content }: MarkdownRendererProps) {
         ),
         a: ({ node, ...props }) => <a className="underline hover:no-underline font-instrument-serif" {...props} />,
         code: ({ node, ...props }) => (
-          <code className="font-mono bg-gray-100 dark:bg-gray-800 px-1 py-0.5 rounded" {...props} />
+          <code className="font-mono bg-gray-100 px-1 py-0.5 rounded" {...props} />
         ),
         pre: ({ node, ...props }) => (
-          <pre className="font-mono bg-gray-100 dark:bg-gray-800 p-6 rounded overflow-x-auto mb-6 my-8" {...props} />
+          <pre className="font-mono bg-gray-100 p-6 rounded overflow-x-auto mb-6 my-8" {...props} />
         ),
         img: ({ node, ...props }) => (
           <img className="mx-auto" {...props} />

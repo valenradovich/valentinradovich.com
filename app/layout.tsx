@@ -1,7 +1,6 @@
 import type React from "react";
 import "@/app/globals.css";
 import { Analytics } from "@vercel/analytics/react";
-import { ThemeProvider } from "@/components/theme-provider";
 
 export const metadata = {
 	title: "Valentin Radovich",
@@ -44,15 +43,8 @@ export default function RootLayout({
 					rel="stylesheet"
 				/>
 			</head>
-			<body className="font-instrument-serif min-h-screen transition-colors duration-300">
-				<ThemeProvider
-					attribute="class"
-					defaultTheme="light"
-					enableSystem={false}
-					disableTransitionOnChange
-				>
-					{children}
-				</ThemeProvider>
+			<body className="font-instrument-serif min-h-screen">
+				{children}
 				<Analytics />
 			</body>
 		</html>
