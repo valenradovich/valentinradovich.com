@@ -20,10 +20,10 @@ Idols matter because we need innovation, we need changes, we need to be differen
 
 An idol is a statistical anomaly, someone who bent the curve, who falls outside it. Someone who's life doesn't fit neatly into the normal distribution of human behavior. Find one you can admire. Find one who makes you think, *"I want to be that person"*.
 
-Having idols means doing whatever you can to beat them. And then years go by, and you realize you're not even close. That's the dangerous moment, the moment you reach for the "mature" exit lines. *"Nobody is that great"*, *"But they did this or that wrong"*. It sounds balanced. It sounds reasonable. But balance is average. Balance lives in the middle.
+Having idols means doing whatever you can to beat them. Even thought is hard and you'll see that it seems you're not going to make it, you must continue and not fall into the "mature" exit of that fight. Excuses will arise; *"Nobody is that great"*, *"But they did this or that wrong"*. You'll try to find a balance but balance is average and middle. Nobody want to be that.
 
-Admiring someone gives you a rare kind of fascination, almost a euphoria, that you can't get from polite consensus. It happens when you see a person break your model of what's possible for the world. Not when you hear a general idea, or a softened agreement among many.
+Admiring someone gives you a rare kind of fascination and euphoria, that you can't get from polite consensus. It happens when you see a person break what you tought that was possible to do in this the world. Not when you hear an already repeated idea or agreement between people.
 
-That's why I don't want to learn only from *"the market"*, *"the community"*, *"the ecosystem"*. That's flat. It doesn't generate the energy you need. If you don't have heroes, your standard of greatness is probably too easy to hit.
+That's why I don't learn from *"the market"*, *"the community"*, *"the ecosystem"*. That's completely flat. It doesn't generate the energy you need. And for sure it's not great. Will be average. If you don't have heroes, your standard of greatness is probably too easy to hit.
 
 You need idols.
