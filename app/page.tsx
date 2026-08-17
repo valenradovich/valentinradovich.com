@@ -20,7 +20,7 @@ export default function Home() {
 				<p className="text-xl mb-4 leading-relaxed">
 					engineer driven by craft, user experience, simplicity, and speed - building{" "}
 					<Link
-						href="https://melian.com/"
+						href="https://apps.apple.com/us/app/melian-discover-unique-brands/id6738385324"
 						target="_blank"
 						rel="noopener noreferrer"
 						className="underline hover:no-underline"
