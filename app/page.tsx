@@ -18,6 +18,9 @@ export default function Home() {
 					doer, reckless, lean, obsessive guy that wants to win.
 				</p>
 				<p className="text-xl mb-4 leading-relaxed">
+					from argentina, living in san francisco
+				</p>
+				<p className="text-xl mb-4 leading-relaxed">
 					engineer driven by craft, user experience, simplicity, and speed - building{" "}
 					<Link
 						href="https://apps.apple.com/us/app/melian-discover-unique-brands/id6738385324"
