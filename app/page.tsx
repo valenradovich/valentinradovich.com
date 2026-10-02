@@ -29,6 +29,9 @@ export default function Home() {
 					</Link>
 					.
 				</p>
+				<p className="text-xl mb-4 leading-relaxed">
+					from argentina, living in san francisco.
+				</p>
 				<div className="mt-8 flex flex-wrap gap-x-6 gap-y-2 text-lg opacity-70">
 					<Link
 						href="mailto:hi@valentinradovich.com"
