@@ -14,10 +14,10 @@ export default function Home() {
 				</h1>
 			</header>
 			<div className="text-left">
-				<p className="text-xl mb-4 leading-relaxed">
+				<p className="mb-4 text-[17px] leading-[1.6]">
 					doer, reckless, lean, obsessive guy that wants to win.
 				</p>
-				<p className="text-xl mb-4 leading-relaxed">
+				<p className="mb-4 text-[17px] leading-[1.6]">
 					engineer driven by craft, user experience, simplicity, and speed - building{" "}
 					<Link
 						href="https://apps.apple.com/us/app/melian-discover-unique-brands/id6738385324"
@@ -29,10 +29,10 @@ export default function Home() {
 					</Link>
 					.
 				</p>
-				<p className="text-xl mb-4 leading-relaxed">
+				<p className="mb-4 text-[17px] leading-[1.6]">
 					from argentina, living in san francisco.
 				</p>
-				<div className="mt-8 flex flex-wrap gap-x-6 gap-y-2 text-lg opacity-70">
+				<div className="mt-8 flex flex-wrap gap-x-6 gap-y-2 text-[17px] leading-[1.6] opacity-70">
 					<Link
 						href="mailto:hi@valentinradovich.com"
 						target="_blank"
