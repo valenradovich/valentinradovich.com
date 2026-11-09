@@ -15,7 +15,8 @@ const config: Config = {
     extend: {
       // ...defaultConfig.theme.extend,
       fontFamily: {
-        "instrument-serif": ["Instrument Serif", "serif"],
+        "thinking-serif": ["Iowan Old Style BT", "Iowan Old Style", "Georgia", "serif"],
+        "instrument-serif": ["var(--font-instrument-serif)", "Georgia", "serif"],
       },
       colors: {
         // ...defaultConfig.theme.extend.colors,
@@ -60,7 +61,7 @@ const config: Config = {
           css: {
             maxWidth: "100%",
             color: "inherit",
-            fontFamily: "Instrument Serif, serif",
+            fontFamily: '"Iowan Old Style BT", "Iowan Old Style", Georgia, serif',
             a: {
               color: "inherit",
               textDecoration: "underline",
@@ -71,28 +72,28 @@ const config: Config = {
             h1: {
               fontWeight: "normal",
               color: "inherit",
-              fontFamily: "Instrument Serif, serif",
+              fontFamily: 'var(--font-instrument-serif), Georgia, serif',
             },
             h2: {
               fontWeight: "normal",
               color: "inherit",
-              fontFamily: "Instrument Serif, serif",
+              fontFamily: 'var(--font-instrument-serif), Georgia, serif',
             },
             h3: {
               fontWeight: "normal",
               color: "inherit",
-              fontFamily: "Instrument Serif, serif",
+              fontFamily: 'var(--font-instrument-serif), Georgia, serif',
             },
             h4: {
               fontWeight: "normal",
               color: "inherit",
-              fontFamily: "Instrument Serif, serif",
+              fontFamily: 'var(--font-instrument-serif), Georgia, serif',
             },
             blockquote: {
               fontStyle: "italic",
               color: "inherit",
               borderLeftColor: "currentColor",
-              fontFamily: "Instrument Serif, serif",
+              fontFamily: 'var(--font-instrument-serif), Georgia, serif',
             },
             code: {
               color: "inherit",

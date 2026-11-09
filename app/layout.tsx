@@ -1,6 +1,13 @@
 import type React from "react";
 import "@/app/globals.css";
 import { Analytics } from "@vercel/analytics/react";
+import { Instrument_Serif } from "next/font/google";
+
+const instrumentSerif = Instrument_Serif({
+	weight: "400",
+	subsets: ["latin"],
+	variable: "--font-instrument-serif",
+});
 
 export const metadata = {
 	title: "Valentin Radovich",
@@ -31,19 +38,7 @@ export default function RootLayout({
 }) {
 	return (
 		<html lang="en" suppressHydrationWarning>
-			<head>
-				<link rel="preconnect" href="https://fonts.googleapis.com" />
-				<link
-					rel="preconnect"
-					href="https://fonts.gstatic.com"
-					crossOrigin="anonymous"
-				/>
-				<link
-					href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&display=swap"
-					rel="stylesheet"
-				/>
-			</head>
-			<body className="font-instrument-serif min-h-screen">
+			<body className={`${instrumentSerif.variable} min-h-screen font-thinking-serif`}>
 				{children}
 				<Analytics />
 			</body>
