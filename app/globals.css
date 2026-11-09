@@ -51,4 +51,10 @@
     @apply bg-background text-foreground antialiased;
     font-family: "Iowan Old Style BT", "Iowan Old Style", Georgia, serif;
   }
+  h1,
+  h2,
+  h3,
+  h4 {
+    @apply font-instrument-serif;
+  }
 }
