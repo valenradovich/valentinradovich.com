@@ -60,6 +60,14 @@ export default function Home() {
 					>
 						github
 					</Link>
+					<Link
+						href="https://apps.apple.com/us/app/melian-discover-unique-brands/id6738385324"
+						target="_blank"
+						rel="noopener noreferrer"
+						className="underline hover:no-underline"
+					>
+						melian
+					</Link>
 				</div>
 			</div>
 		</Layout>
