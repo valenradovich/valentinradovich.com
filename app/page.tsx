@@ -20,7 +20,7 @@ export default function Home() {
 				<p className="mb-4 text-[17px] leading-[1.6]">
 					engineer driven by craft, simplicity, speed, and user experience - making{" "}
 					<Link
-						href="https://apps.apple.com/us/app/melian-discover-unique-brands/id6738385324"
+						href="https://melian.com"
 						target="_blank"
 						rel="noopener noreferrer"
 						className="underline hover:no-underline"
@@ -61,7 +61,7 @@ export default function Home() {
 						github
 					</Link>
 					<Link
-						href="https://apps.apple.com/us/app/melian-discover-unique-brands/id6738385324"
+						href="https://melian.com"
 						target="_blank"
 						rel="noopener noreferrer"
 						className="underline hover:no-underline"
