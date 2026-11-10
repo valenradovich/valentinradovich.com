@@ -15,17 +15,17 @@ export default function Home() {
 			</header>
 			<div className="text-left">
 				<p className="mb-4 text-[17px] leading-[1.6]">
-					doer, reckless, lean, obsessive guy that wants to win.
+					relentless. lean. obsessive.
 				</p>
 				<p className="mb-4 text-[17px] leading-[1.6]">
-					engineer driven by craft, user experience, simplicity, and speed - building{" "}
+					engineer driven by craft, simplicity, speed, and user experience - making{" "}
 					<Link
 						href="https://apps.apple.com/us/app/melian-discover-unique-brands/id6738385324"
 						target="_blank"
 						rel="noopener noreferrer"
 						className="underline hover:no-underline"
 					>
-						Melian
+						something wonderful
 					</Link>
 					.
 				</p>
